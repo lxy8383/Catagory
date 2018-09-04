@@ -15,6 +15,8 @@
 		A5BEC421213E375400B1F6B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BEC420213E375400B1F6B3 /* main.m */; };
 		A5BEC42B213E375400B1F6B3 /* LXYCatagoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BEC42A213E375400B1F6B3 /* LXYCatagoryTests.m */; };
 		A5BEC436213E375400B1F6B3 /* LXYCatagoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BEC435213E375400B1F6B3 /* LXYCatagoryUITests.m */; };
+		A5BEC445213E377800B1F6B3 /* UIImage+CGGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BEC444213E377800B1F6B3 /* UIImage+CGGradientColor.m */; };
+		A5BEC448213E37B100B1F6B3 /* UIColor+CGColorWithString.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BEC446213E37B000B1F6B3 /* UIColor+CGColorWithString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A5BEC431213E375400B1F6B3 /* LXYCatagoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYCatagoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BEC435213E375400B1F6B3 /* LXYCatagoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXYCatagoryUITests.m; sourceTree = "<group>"; };
 		A5BEC437213E375400B1F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BEC443213E377700B1F6B3 /* UIImage+CGGradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGGradientColor.h"; sourceTree = "<group>"; };
+		A5BEC444213E377800B1F6B3 /* UIImage+CGGradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGGradientColor.m"; sourceTree = "<group>"; };
+		A5BEC446213E37B000B1F6B3 /* UIColor+CGColorWithString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CGColorWithString.m"; sourceTree = "<group>"; };
+		A5BEC447213E37B000B1F6B3 /* UIColor+CGColorWithString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CGColorWithString.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		A5BEC410213E375200B1F6B3 /* LXYCatagory */ = {
 			isa = PBXGroup;
 			children = (
+				A5BEC447213E37B000B1F6B3 /* UIColor+CGColorWithString.h */,
+				A5BEC446213E37B000B1F6B3 /* UIColor+CGColorWithString.m */,
+				A5BEC443213E377700B1F6B3 /* UIImage+CGGradientColor.h */,
+				A5BEC444213E377800B1F6B3 /* UIImage+CGGradientColor.m */,
 				A5BEC411213E375200B1F6B3 /* AppDelegate.h */,
 				A5BEC412213E375200B1F6B3 /* AppDelegate.m */,
 				A5BEC414213E375200B1F6B3 /* ViewController.h */,
@@ -265,6 +275,8 @@
 				A5BEC416213E375200B1F6B3 /* ViewController.m in Sources */,
 				A5BEC421213E375400B1F6B3 /* main.m in Sources */,
 				A5BEC413213E375200B1F6B3 /* AppDelegate.m in Sources */,
+				A5BEC448213E37B100B1F6B3 /* UIColor+CGColorWithString.m in Sources */,
+				A5BEC445213E377800B1F6B3 /* UIImage+CGGradientColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
